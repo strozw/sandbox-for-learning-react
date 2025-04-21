@@ -2,8 +2,22 @@
 
 ## 環境構築
 
+このリポジトリのコードを clone
+
+```sh
+git clone https://github.com/strozw/sandbox-for-learning-react.git
+```
+
+最新の `pnpm` をインストールした上で、
+
 ```sh
 npm i -g pnpm@latest
+```
+
+clone したコードのディレクトリへ移動し、依存パッケージのインストールしてください。
+
+```sh
+cd sandbox-for-learning-react
 pnpm install
 ```
 
