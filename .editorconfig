@@ -1,0 +1,10 @@
+# EditorConfig の設定内容については以下をご覧ください。
+# https://EditorConfig.org
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true

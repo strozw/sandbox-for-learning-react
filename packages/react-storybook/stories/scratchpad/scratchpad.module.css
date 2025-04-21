@@ -1,0 +1,7 @@
+/*
+* ※ CSS Modules では、class 名を `camelCase` で指定する必要があるのでご注意ください。
+*/
+
+.container {
+  padding: 50px;
+}

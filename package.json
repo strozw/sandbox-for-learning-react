@@ -1,13 +1,14 @@
 {
-  "name": "learning-react",
+  "name": "sandbox-for-learning-react",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "private": true,
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.8.1"
+  "packageManager": "pnpm@10.8.1",
+  "scripts": {
+    "dev-react-foundations": "pnpm run --filter=react-foundations-ch1-8 dev",
+    "dev-react-storybook": "pnpm run --filter=react-storybook dev",
+    "test-react-storybook": "pnpm run --filter=react-storybook test"
+  }
 }
