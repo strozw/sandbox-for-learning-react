@@ -1,5 +1,7 @@
 # React を学習するためのサンドボックス
 
+とりあえずコードを書いて試すための環境
+
 ## 環境構築
 
 このリポジトリのコードを clone
@@ -23,7 +25,7 @@ pnpm install
 
 ## 学習環境
 
-### 1. React Foundations chapter 1 〜 8 を学習する
+### React Foundations chapter 1 〜 8 を学習する
 
 以下のページにアクセスし、
 <https://nextjs.org/learn/react-foundations>
@@ -37,7 +39,16 @@ pnpm install
 pnpm dev-react-foundations
 ```
 
-### 2. Storybook を利用して React を学習する
+### TypeScript を学習する
+
+以下のコマンドで、`packages/ts` 以下で TypeScript のコードを試すための開発環境が起動します。
+[読んで学ぶTypeScript](https://typescriptbook.jp/reference) に記載されているコードなどを試すのに利用します。
+
+```bash
+pnpm dev-ts
+```
+
+### Storybook を利用して React を学習する
 
 以下のコマンドで、`packages/react-storybook` 以下で React のコードを試すための Storybook を用いた開発環境が起動します。
 

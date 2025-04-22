@@ -8,6 +8,7 @@
   "packageManager": "pnpm@10.8.1",
   "scripts": {
     "dev-react-foundations": "pnpm run --filter=react-foundations-ch1-8 dev",
+    "dev-ts": "pnpm run --filter=ts dev",
     "dev-react-storybook": "pnpm run --filter=react-storybook dev",
     "test-react-storybook": "pnpm run --filter=react-storybook test"
   }
